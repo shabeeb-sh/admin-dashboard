@@ -1,0 +1,54 @@
+<div fxLayout="row" fxLayoutAlign="space-between center">
+    <!-- card 1-->
+    <mat-card>
+        <app-card
+        bg="orange"
+        icon="import_contacts"
+        content="Admissions"
+        total="2000"
+        ></app-card>
+    </mat-card>
+    <!-- card 2-->
+    <mat-card>
+        <app-card
+        bg="green"
+        icon="home"
+        content="Placements"
+        total="3000"
+        ></app-card>
+    </mat-card>
+    <!-- card 3-->
+    <mat-card>
+        <app-card
+        bg="red"
+        icon="person"
+        content="Students"
+        total="4000"
+        ></app-card>
+    </mat-card>
+    <!-- card 4-->
+    <mat-card>
+        <app-card
+        bg="blue"
+        icon="group"
+        content="Employees"
+        total="100"
+        ></app-card>
+    </mat-card>
+</div>
+
+<div class="area">
+    <!-- area chart -->
+    <app-area-chart></app-area-chart>
+</div>
+
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="10px">
+    <div fxFlex="60">
+        <!-- table -->
+        <app-table></app-table>
+    </div>
+    <div fxFlex="40">
+        <!-- pie chart -->
+        <app-pie-chart></app-pie-chart>
+    </div>
+</div>
